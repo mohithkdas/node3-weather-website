@@ -67,7 +67,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        title: 'Help Page HBS',
+        title: 'Help Page',
         name: 'Mohith K Das'
 
     })
